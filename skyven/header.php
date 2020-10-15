@@ -196,12 +196,14 @@
             <div>
                 <button class="btn orange_btn close-video-btn hide-item">Close</button>
             </div>
-			<button type="button" class="page-header__scroll button button--clean">
-                <div class="page-header__scroll-text">Scroll Down</div>
-                <svg aria-hidden="true" class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="8">
+            <div>
+            <button type="button" class="page-header__scroll button button--clean btn-scroll">
+                <div class="page-header__scroll-text">Scroll</div>
+                <svg aria-hidden="true" class="icon scroll-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="8">
                     <path stroke="currentColor" d="M1.41.59L6 5.17 10.59.59 12 2 6 8 0 2z"></path>
                 </svg>
             </button>
+            </div>
         </div>
     </section>  
     <?php 
