@@ -1,0 +1,189 @@
+.top-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: $white;
+    //padding: 50px 0px;
+
+    &.fixed-header {
+        position: fixed;
+        width: 100%;
+        float: left;
+        padding: 10px 0;
+        background: $white;
+        box-shadow: 0px 1px 3px #86450a;
+        border-radius: 0;
+    }
+
+    .header-row {
+        align-items: center;
+        //margin: 0;
+
+        nav.navbar {
+            padding: 0;
+
+            ul.navbar-nav {
+                li {
+                    a {
+                        font-size: 16px;
+                        color: #222222;
+                        padding: 5px 0;
+                        margin: 0 30px;
+                        border-bottom: 2px solid transparent;
+                        font-family: $Tahoma;
+
+                        &:hover {
+                            color: $orange;
+                            border-bottom: 2px solid $orange;
+                        }
+                    }
+
+
+
+                    &:first-child {
+                        a {
+                            margin-left: 0;
+                        }
+                    }
+
+                    &:last-child {
+                        a {
+                            margin-right: 0;
+                        }
+                    }
+
+                    &.current-menu-item {
+                        a {
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .top-header {
+        .header-row {
+            nav.navbar {
+                ul.navbar-nav {
+                    width: 100%;
+                    justify-content: flex-end;
+                }
+            }
+
+            a.site-logo {
+                float: left;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .top-header {
+        .header-row {
+            justify-content: space-between;
+
+            .col-lg-4 {
+                &:first-child {
+                    display: none;
+                }
+            }
+
+            &>div {
+                display: inline-flex;
+                width: auto;
+                position: static;
+            }
+
+            nav.navbar {
+                position: static;
+
+                button {
+                    padding: 0;
+                    outline: none;
+
+                    .hamburger span.hamburger-icon {
+                        display: block;
+                        width: 30px;
+                        height: 2px;
+                        background: #ef6236;
+                        margin: 0 auto 5px auto;
+
+                        &:last-child {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                div#collapsibleNavbar {
+                    position: absolute;
+                    top: 100%;
+                    width: 100%;
+                    left: 0;
+                    background: #dd7c36;
+
+                    ul.navbar-nav {
+                        width: 100%;
+                        justify-content: flex-end;
+                        max-width: 540px;
+                        margin: 0 auto;
+                        padding: 0 15px;
+
+                        li {
+                            a {
+                                margin: 0;
+                                text-align: left;
+                                padding: 5px;
+                                border-bottom: 1px solid #d2d2d2;
+                                color: $white;
+                                font-weight: 400;
+                            }
+
+                            &:last-child {
+                                a {
+                                    border: 0;
+                                }
+                            }
+
+                            &.current-menu-item {
+                                a {
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 575px) {
+    .top-header {
+        .header-row {
+            nav.navbar {
+                div#collapsibleNavbar {
+                    ul.navbar-nav {
+                        max-width: 100%;
+                    }
+                }
+
+                button .hamburger span.hamburger-icon {
+                    width: 25px;
+                }
+            }
+
+            a.site-logo {
+                img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

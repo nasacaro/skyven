@@ -1,0 +1,256 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Verdana-Bold
+FamilyName:Verdana
+StyleName:Bold
+MenuName:Verdana
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Verdana Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Verdana Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153260
+FileModTime:562113869
+NameArray:0,Mac,4,Verdana Bold
+NameArray:0,Win,1,Verdana
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/AdobeFnt21.lst
+FileLength:5816
+FileModTime:586872070
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Exo2-Bold
+FamilyName:Exo 2
+StyleName:Bold
+MenuName:Exo 2
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Exo 2 Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Exo2-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:125452
+FileModTime:575573214
+NameArray:0,Mac,4,Exo 2 Bold
+NameArray:0,Win,1,Exo 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Exo2-ExtraBold
+FamilyName:Exo 2
+StyleName:Extra Bold
+MenuName:Exo 2 Extra Bold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:Exo 2 Extra Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Exo2-ExtraBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:125340
+FileModTime:575573214
+NameArray:0,Mac,4,Exo 2 Extra Bold
+NameArray:0,Win,1,Exo 2 Extra Bold
+NameArray:0,Win,16,Exo 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma-Bold
+FamilyName:Tahoma
+StyleName:Bold
+MenuName:Tahoma
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Tahoma Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Tahoma Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:626928
+FileModTime:562113869
+NameArray:0,Win,1,Tahoma
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:217280
+FileModTime:375719278
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Exo2-SemiBold
+FamilyName:Exo 2
+StyleName:Semi Bold
+MenuName:Exo 2 Semi Bold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Exo 2 Semi Bold
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Exo2-SemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:124144
+FileModTime:575573216
+NameArray:0,Mac,4,Exo 2 Semi Bold
+NameArray:0,Win,1,Exo 2 Semi Bold
+NameArray:0,Win,16,Exo 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Exo2-Medium
+FamilyName:Exo 2
+StyleName:Medium
+MenuName:Exo 2 Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Exo 2 Medium
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Exo2-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:117528
+FileModTime:575573216
+NameArray:0,Mac,4,Exo 2 Medium
+NameArray:0,Win,1,Exo 2 Medium
+NameArray:0,Win,16,Exo 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma
+FamilyName:Tahoma
+StyleName:Regular
+MenuName:Tahoma
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Tahoma
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Tahoma.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:681120
+FileModTime:562113868
+NameArray:0,Win,1,Tahoma
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Exo2-Black
+FamilyName:Exo 2
+StyleName:Black
+MenuName:Exo 2 Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Exo 2 Black
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Exo2-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:121236
+FileModTime:575573216
+NameArray:0,Mac,4,Exo 2 Black
+NameArray:0,Win,1,Exo 2 Black
+NameArray:0,Win,16,Exo 2
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Verdana
+FamilyName:Verdana
+StyleName:Regular
+MenuName:Verdana
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Verdana
+WritingScript:Roman
+OutlineFileName:/Users/apple/Freelance Work/Skyven Technologies/SkyvenBrochure_General_Aug2019 Folder/Document fonts/Verdana.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:186188
+FileModTime:562113869
+NameArray:0,Mac,4,Verdana
+NameArray:0,Win,1,Verdana
+%EndFont
+

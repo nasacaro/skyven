@@ -1,0 +1,64 @@
+ jQuery(window).scroll(function(){
+    var scroll = jQuery(window).scrollTop();
+    //var height = jQuery('.common-banner-class').outerHeight();
+
+    //if (scroll > height - 150) {
+    if (scroll > 150) {
+        jQuery("header.top-header").addClass("fixed-header");
+    }
+    else{
+        jQuery("header.top-header").removeClass("fixed-header");
+    }
+});
+
+AOS.init({
+    duration: 800,
+})
+
+jQuery(document).ready(function(){
+    $('.logo-slider').slick({
+        arrows: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        ariableWidth: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                  slidesToShow: 4
+                }
+            },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+
+    jQuery('.info-icon').click(function(){
+      //alert();
+      jQuery('.info-icon').not(this).parentsUntil(".slide").children('.overlay').removeClass('show-info');
+      jQuery(this).parentsUntil(".slide").children('.overlay').toggleClass('show-info');
+    });
+});

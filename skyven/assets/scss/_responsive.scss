@@ -1,0 +1,326 @@
+@media (max-width:480px) {
+    .sec-tab {
+        .nav-tabs {
+            .nav-item {
+                width:100%;
+            }
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .benifit-content-div  {
+        .benifit-list {
+            .benifit-icon {
+                height:auto;
+            }
+        }
+    }
+    .sec-recog {
+        ul{
+            li{
+                display: table;
+                padding: 25px 0px;
+                text-align: center;
+                width: 100%;
+                img{
+                    width: max-content;
+                    object-fit: contain;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .sec-recog {
+        ul{
+            li{
+                display: table;
+                padding: 25px 0px;
+                text-align: center;
+                width: 50%;
+                float: left;
+                img{
+                    width: max-content;
+                    object-fit: contain;
+                    height: 100px;
+                }
+            }
+            &:last-child {
+                li{
+                    &:last-child {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .sec-banner {
+        .top-video {
+            .banner-text {
+                h1{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    .sec-tab {
+        .nav-tabs {
+            .nav-item {
+                .nav-link {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .sec-tab {
+        .row.img-left:nth-of-type(even) {
+            .img-sec-col {
+                order: unset;
+            }
+        }
+    }
+    .benifit-content-div {
+        ul{
+            li{
+                width:50%;
+                .benifit-list {
+                    padding: 40px 20px;
+                }
+            }
+        }
+    }
+    .sec-news {
+        .new-blog-div {
+            margin:10px 0px;
+        }
+    }
+    .sec-recog {
+        .add-img-div {
+            text-align: center;
+        }
+    }
+    .footer {
+        .foo-div {
+            .foo-logo {
+                padding:40px 0px;
+            }
+            .foo-social {
+                padding:20px 0px 0px;
+                ul{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .foo-top {
+            .foo-logo {
+                text-align: unset;
+                padding: 10px 0px 20px;
+            }
+            .foo-zero{
+                text-align: unset;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .sec-news {
+        .news-blog-desc {
+            padding: 20px;
+            a{
+                font-size: 16px;
+            }
+            h4{
+                font-size: 16px;
+                //height: 76px;
+                height: auto;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .sec-recog {
+        ul{
+            li{
+                display: table;
+                padding: 25px 0px;
+                text-align: center;
+                width: 50%;
+                float: left;
+                img{
+                    width: max-content;
+                    object-fit: contain;
+                    height: 100px;
+                }
+            }
+            &:last-child {
+                li{
+                    &:last-child {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .sec-recog {
+        .add-img-div {
+            img{
+                height: 55px;
+            }
+        }
+    }
+    .footer {
+        .foo-top {
+            .foo-social {
+                ul{
+                    li{
+                        padding: 0px 5px; 
+                    }
+                }
+            }
+        }
+        .foo-div {
+            .foo-logo {
+                .brand-foo {
+                    img{
+                        height: 30px;
+                    }
+                }
+            }
+            h5{
+                font-size: 16px;
+            }
+            h4{
+                font-size: 16px;
+            }
+            .address-div {
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 1199px){
+    .sec-recog{
+        ul{
+            li{
+                padding: 25px 20px;
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: 991px){
+    .sec-tab{
+        .tab-desc{
+            h2{
+                font-size: 24px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .benifit-content-div{
+        .benifit-list{
+            h2{
+                font-size: 26px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .testimonial-section .testimonial .test .test-content p{
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media all and (max-width: 767px){
+    .sec-process-updated .heading-desc-div{
+        h2{
+            font-size: 24px;
+        }
+
+        p{
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+    .benifit-content-div{
+        text-align: center;
+
+        .benifit-list{
+            padding: 20px 0;
+
+            .benifit-icon{
+                height: auto;
+                padding: 20px 0;
+            }
+            img{
+                margin: 0 auto;
+            }
+        }
+    }
+    .benifit-content-div .row{
+        margin-bottom: 0;
+
+        &:first-child .col-md-4:last-child{
+            display: none;
+        }
+    }
+    .sec-tab{
+        .row.img-left{
+            margin: 0;
+        }
+        .tab-desc{
+            padding: 20px 0;
+        }
+    }
+}
+
+@media all and (max-width: 575px){
+    .sec-recog{
+        padding: 60px 0;
+    }
+    .sec-process-updated{
+        padding-bottom: 40px;
+
+        .heading-desc-div{
+            padding: 50px 20px;
+        }
+    }
+    .sec-banner .top-video .banner-text h1{
+        font-size: 36px;
+    }
+
+    .testimonial-section .testimonial .test{
+        .testimonial-author-sec{
+            margin-top: 30px;
+        }
+
+        .test-content p{
+            font-size: 20px;
+            line-height: 26px;
+        }
+
+        .client-info{
+            font-size: 22px;
+
+            span{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+}

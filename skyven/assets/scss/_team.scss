@@ -1,0 +1,239 @@
+//Scss for Team page top content before Team People Starts//
+.team-banner-image{
+    position: relative;
+    clear: both;
+
+    img.img-fluid {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner-text-div {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        background: rgba($black,0.2);
+        color: $white;
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+
+.page-template-team{
+    .inner-banner{
+        height: 0;
+        padding: 0;
+
+        .banner-text{
+            h1 {
+                display: none;
+            }
+        }
+    }
+}
+
+.ourteam_top_content {
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    clear: both;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 2px;
+        height: 60px;
+        background: #E0821F;
+        display: block;
+        margin: auto;
+        top: 0;
+    }
+
+    .process_heat {
+        font-size: 40px;
+        text-align: center;
+        color: $foo-bg;
+        line-height: 32px;
+        letter-spacing: 0.36px;
+        opacity: 1;
+        margin-top: 50px;
+    }
+
+    .team_para {
+        margin-top: 43px;
+    }
+
+    .team_buisness_para {
+        // font-family: $ExoM;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 0.15px;
+        color: $foo-bg;
+        opacity: 1;
+        line-height: 32px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+}
+
+//Scss for Team page top content before Team People Ends//
+
+//Scss for  Team People Starts//
+// .ourteam_repeater {
+//     display: grid;
+//     grid-gap: 50px;
+//     grid-template-columns: repeat(3, 1fr);
+// }
+
+//Scss for  Team People Ends//
+
+//Scss for  Advisors Starts//
+.advisors {
+    .ouradvisor_repeater {
+        // display: grid;
+        // grid-template-columns: repeat(4, 1fr);
+        // grid-gap: 50px;
+        padding-bottom: 150px;
+
+        img {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+
+        .member_data {
+            align-items: baseline;
+
+            .member_name {
+                font-family: $Tahoma;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 38px;
+                letter-spacing: 0;
+                color: $white;
+                opacity: 1;
+                margin: 0;
+            }
+
+            .member_designation {
+                // font-family: $ExoM;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                opacity: 1;
+                letter-spacing: 0.9px;
+                color: $white;
+            }
+        }
+    }
+
+    .team_headerimage {
+        margin-top: 90px;
+        padding-bottom: 50px;
+    }
+}
+
+//Scss for  Advisors Ends//
+
+@media screen and (max-width:1199px) {
+    .team-banner-image .banner-text-div h1{
+        font-size: 40px;
+    }
+
+    .ourteampeople {
+
+        .ourteam_repeater {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .advisors {
+
+        .ouradvisor_repeater {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .ourteam_repeater .slide .team_image_wrapper{
+        width: 306px;
+        height: 393px;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .ourteampeople {
+
+        .ourteam_repeater {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .advisors {
+
+        .ouradvisor_repeater {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    .ourteampeople {
+
+        .ourteam_repeater {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .advisors {
+
+        .ouradvisor_repeater {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .ourteampeople {
+
+        .ourteam_repeater {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+        }
+    }
+
+    .advisors {
+
+        .ouradvisor_repeater {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+        }
+    }
+
+    .ourteam_top_content .process_heat{
+        font-size: 25px;
+        line-height: 31px;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width: 575px){
+    .team-banner-image .banner-text-div h1{
+        font-size: 30px;
+    }
+}

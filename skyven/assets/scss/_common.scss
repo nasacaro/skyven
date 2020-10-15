@@ -1,0 +1,418 @@
+@font-face {
+    font-family: ExoBlack;
+    src: url(../fonts/Exo2-Black.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: ExoM;
+    //src: url(../fonts/Exo2-Medium.otf);
+    src: url(../fonts/CompressedFonts/exo2-medium-webfont.woff2) format('woff2');/* Pretty Modern Browsers */
+    src: url(../fonts/CompressedFonts/exo2-medium-webfont.woff) format('woff');/* Super Modern Browsers */
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ExoB;
+    //src: url(../fonts/Exo2-Bold.otf);
+    src: url(../fonts/CompressedFonts/exo2-bold-webfont.woff2) format('woff2');/* Pretty Modern Browsers */
+    src: url(../fonts/CompressedFonts/exo2-bold-webfont.woff) format('woff');/* Super Modern Browsers */
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ExoSB;
+    //src: url(../fonts/Exo2-SemiBold.otf) format("");
+    src: url(../fonts/CompressedFonts/exo2-semibold-webfont.woff2) format('woff2');/* Pretty Modern Browsers */
+    src: url(../fonts/CompressedFonts/exo2-semibold-webfont.woff) format('woff');/* Super Modern Browsers */
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Tahoma;
+    src: url(../fonts/Tahoma.ttf);
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+$ExoBlack : ExoBlack;
+$ExoM : ExoM;
+$ExoB : ExoB;
+$ExoSB : ExoSB;
+$Tahoma : Tahoma;
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $ExoSB;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-family: $Tahoma;
+}
+
+//Common scss for team page top content Our Misson,our Buisness and Our People Starts//
+.team_para {
+    text-align: center;
+    color: #696969;
+    text-transform: uppercase;
+    opacity: 1;
+    letter-spacing: 1.45px;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    display: inline-block;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -30px;
+        border: 8px solid #E0821F;
+        border-radius: 50%;
+
+    }
+}
+
+//Common scss for team page top content Our Misson,our Buisness and Our People Ends//
+
+//Common scss for team page member name and information Starts//
+.slide {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.advisors {
+    .ouradvisor_repeater {
+        .team_image_wrapper {
+            width: 245px;
+            // height: 307px;
+            height: 357px;
+            max-width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+            background: rgba(217, 118, 52, 0.9);
+
+            .overlay {
+                p.info {
+                    font-size: 12px;
+                    min-height: 175px;
+                    max-height: 175px;
+                    overflow-y: auto;
+                    line-height: 24px;
+                    letter-spacing: 0.11px;
+                }
+            }
+
+            .member_data .member_name {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.ourteam_repeater {
+    .slide {
+        .team_image_wrapper {
+            width: 346px;
+            height: 433px;
+            overflow: hidden;
+            margin: 0 auto;
+            max-width: 100%;
+            background: rgba(217, 118, 52, 0.9);
+        }
+    }
+}
+
+.team_image_wrapper {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 100%;
+        height: 0%;
+        //transition: .5s ease;
+        background: transparent linear-gradient(179deg, #E0821F 0%, #BE4B0D 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.85;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        p.info {
+            flex: 0 0 100%;
+            margin: 0;
+            padding: 10px 0;
+            border-top: 1px solid $white;
+            border-bottom: 1px solid $white;
+            margin-top: 10px;
+            color: $white;
+            text-align: center;
+            font-size: 18px;
+            min-height: 315px;
+            max-height: 315px;
+            overflow-y: auto;
+            letter-spacing: 0.16px;
+            //line-height: 32px;
+            line-height: 28px;
+        }
+
+        .member_data {
+            flex: 0 0 90%;
+
+            p {
+                color: $white;
+                margin: 0;
+            }
+
+            p.member_name {
+                font-size: 23px;
+            }
+        }
+
+        .linked_link a {
+            color: $white;
+        }
+    }
+
+    &:hover {
+        .overlay {
+            height: 100%;
+            padding: 15px;
+        }
+
+        .member_data_wrapper {
+            display: none;
+        }
+    }
+}
+
+.member_data_wrapper {
+    position: absolute;
+    background: transparent linear-gradient(283deg, #E0821F 0%, #BE4B0D 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    bottom: -1px;
+    padding: 5px 15px;
+
+    .member_data {
+        color: $white;
+        opacity: 1;
+        font-size: 23px;
+        //line-height: 38px;
+        width: 100%;
+
+        .member_name {
+            font-family: Tahoma;
+            font-weight: 400;
+            margin: 0;
+        }
+    }
+
+    .linked_link {
+        i.fab {
+            color: $white;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 50%;
+
+            &:hover {
+                background-color: #CD641A;
+                border: 1px solid #CD641A;
+
+            }
+        }
+    }
+}
+
+.member_designation {
+    // font-family: $ExoM;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+//Common scss for team page member name and information Ends//
+
+//Common Scss for Our Team And Our Advisor styling Starts//
+.team_headerimage {
+    font-family: $ExoM;
+    font-weight: 500;
+    color: #42464B;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    line-height: 43px;
+    opacity: 1;
+    position: relative;
+    padding-bottom: 40px;
+    margin-top: 60px;
+
+    &::after {
+        position: absolute;
+        height: 1px;
+        border-bottom: 1px solid #3F3C3C;
+        top: 53px;
+        width: 80px;
+        content: "";
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: inline-block;
+        opacity: 1;
+    }
+}
+
+.team_image_wrapper .member_data_wrapper .linked_link a.info-icon {
+    display: none;
+}
+
+//Common Scss for Our Team And Our Advisor styling Starts//
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .ouradvisor_repeater .member_data_wrapper {
+        min-height: 101px;
+    }
+
+    .advisors .ouradvisor_repeater .team_image_wrapper .member_data .member_name {
+        font-size: 17px;
+    }
+
+    .ouradvisor_repeater .col-lg-3 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .member_data_wrapper {
+        padding: 5px 9px;
+
+        .member_data {
+            font-size: 18px;
+            flex: 0 0 75%;
+
+            .member_designation {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .team_image_wrapper {
+        &:hover {
+            .overlay {
+                height: calc(100% - 60px);
+                //height: 100%;
+                padding: 0;
+            }
+
+            .member_data_wrapper {
+                display: flex;
+            }
+        }
+
+        .member_data_wrapper {
+            .linked_link {
+                display: flex;
+                align-items: center;
+
+                a.info-icon {
+                    display: flex;
+                    width: 22px;
+                    height: 22px;
+                    align-items: center;
+                    justify-content: center;
+                    color: $white;
+                    border-radius: 50%;
+                    border: 1px solid $white;
+                    margin-left: 5px;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .overlay {
+            top: 0%;
+            z-index: 1;
+            width: 0;
+            height: calc(100% - 60px);
+
+            &.show-info {
+                width: 100%;
+                padding: 10px;
+                right: 10%;
+                z-index: 1;
+                height: calc(100% - 60px);
+            }
+
+            .member_data,
+            .linked_link {
+                display: none;
+            }
+
+            p.info {
+                min-height: 295px;
+                max-height: 295px;
+            }
+        }
+    }
+
+    .advisors {
+        .ouradvisor_repeater {
+            .team_image_wrapper {
+                width: 306px;
+                height: 393px;
+
+                .overlay.show-info {
+                    height: calc(100% - 83px);
+                }
+
+                .overlay {
+                    p.info {
+                        font-size: 14px;
+                        min-height: 200px;
+                        max-height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
